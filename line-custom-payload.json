@@ -1,0 +1,73 @@
+{
+    "line": {
+      "type": "imagemap",
+      "baseUrl": "<YOUR FIREBASE URL>",
+      "altText": "This is an imagemap",
+      "baseSize": {
+        "height": 1346,
+        "width": 1040
+      },
+      "actions": [
+        {
+          "type": "message",
+          "text": "เมนู A",
+          "area": {
+            "x": 41,
+            "y": 324,
+            "width": 952,
+            "height": 212
+          }
+        },
+        {
+          "type": "message",
+          "text": "เมนู B",
+          "area": {
+            "x": 41,
+            "y": 566,
+            "width": 952,
+            "height": 212
+          }
+        },
+        {
+          "type": "message",
+          "text": "เมนู C",
+          "area": {
+            "x": 41,
+            "y": 810,
+            "width": 952,
+            "height": 212
+          }
+        },
+        {
+          "type": "message",
+          "text": "ของหวาน",
+          "area": {
+            "x": 68,
+            "y": 1052,
+            "width": 253,
+            "height": 242
+          }
+        },
+        {
+          "type": "message",
+          "text": "ของหวาน",
+          "area": {
+            "x": 411,
+            "y": 1052,
+            "width": 149,
+            "height": 242
+          }
+        },
+        {
+          "type": "message",
+          "text": "ของหวาน",
+          "area": {
+            "x": 653,
+            "y": 1052,
+            "width": 216,
+            "height": 242
+          }
+        }
+      ]
+    }
+  }
