@@ -6,8 +6,7 @@ from firebase_admin import firestore
 from dateutil.parser import parse
 import os
 
-cred = credentials.Certificate(
-    './abakatsu-6f0b8-firebase-adminsdk-4a3fg-ce6e97c6ec.json')
+cred = credentials.Certificate('./<YOUR CREDENTIAL>.json')
 default_app = firebase_admin.initialize_app(cred)
 
 db = firestore.client()
